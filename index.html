@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>Index</title>
+	<title>Tonie Torres</title>
+
 	<link rel="stylesheet" type="text/css" href="assets/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
 <body>
-	<header>
-		<h1>Tonie Torres</h1>
-		
-		<ul>
-			<a href="index.html" id="about">About</a>
-			<a href="portfolio.html" id="portfolio">Portfolio</a>
-			<a href="contact.html" id="contact">Contact</a>
-		</ul>
+	<header class="banner">
+		<div class="header-container">
+			<h1>Tonie Torres</h1>
+			<nav class="navbar">
+				<ul>
+					<li>
+						<a href="index.html">About</a>
+					</li>
+
+					<li>
+						<a href="portfolio.html" class="active">Portfolio</a>
+					</li>
+
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
 	</header>
-	<br>
 
-	<section>
-		<article>
+	<div class="container">
+		<section id="main-bio">
 			<h2>About Me</h2>
-			<p>I am Tonie Torres. This will eventually be longer but right now, I do not know myself.</p>
-			<img src="assets/images/profile-image.jpg" id="profilepic">
-		</article>
-	</section>
 
-	<aside>
-		<h3>Connect with Me</h3>
-		<a href="https://github.com/tonie-marie"> <img src="assets/images/github-logo.png"></a>
-		<a href="https://www.linkedin.com/in/antonia-torres-11999793"> <img src="assets/images/linkedin-logo.png">
-	</aside>
+			<img src="assets/images/profile-image.jpg" alt="Profile Picture" id="bio-image">
+
+			<p>I am Tonie Torres. This will eventually be longer but for right now, this'll have to do.</p>
+		</section>
+
+		<section id="contact-info">
+			<h2>Connect With Me</h2>
+			<ul>
+				<li> <a href="https://github.com/tonie-marie"> <img src="assets/images/github-logo.png" alt="github-logo" id="githublogo"></a></li>
+
+				<li> <a href="www.linkedin.com/in/antonia-torres-11999793" id="linkedinlogo"> <img src="assets/images/linkedin-logo.png" alt="linkedin-logo" id="linkedinlogo"></a></li>
+			</ul>
+		</section>
+	</div>
 
 	<footer>
-		&copy;2016 Tonie Torres
+		<p>&copy;2016 Tonie Torres</p>
 	</footer>
 
 </body>

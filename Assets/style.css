@@ -1,52 +1,47 @@
 *{
+	font-family: sans-serif;
 	box-sizing: border-box;
-	text-align: center;
 }
+
 
 body{
-	background-color: #fff0e7;
+	margin: 0;
 }
 
-header{
-	background-color: white;
+
+#bio-image{
+	width: 200px;
+	height: 240px;
 }
 
-h1{
-	text-align: center;
-	background-color: blue;
-	color: white;
-	width: 360px;
-	height: 100px;
-	padding: 0px;
+
+#githublogo{
+	width: 70px;
+	height: 70px;
 }
 
-nav{
-	text-align: right;
+
+#linkedinlogo{
+	width: 70px;
+	height: 70px;
 }
 
-section{
-	float: left;
-	background-color: white;
-	border: 2px solid black;
-	width: 50%;
+
+#penny,
+#satan,
+#serena,
+#shiner,
+#duchess
+{
+	width: 30px;
+	height: 30px;
 }
 
-aside{
-	float: right;
-	background-color: white;
-	width: 50%;
 
-}
-
-#profilepic{
-	border-radius: 10px;
-	height: 230px;
-	width: 180px;
-	float: left;
-}
-
-footer{
-	background-color: #666;
-	padding: 20px;
-	clear: both;
+#box1,
+#box2,
+#box3,
+#box4,
+#box5{
+	display: inline-block;
 }
