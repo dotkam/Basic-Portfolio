@@ -1,59 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tonie Torres</title>
-
+	<title>Portfolio | Tonie Torres</title>
 	<link rel="stylesheet" type="text/css" href="assets/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
-
 <body>
-	<header>
-		<h1>Tonie Torres</h1>
-		<nav>
-			<a href="index.html"><button>About</button></a>
-			<a href="portfolio.html" class="active"><button>Portfolio</button></a>
-			<a href="contact.html"><button>Contact</button></a>
-		</nav>
+
+<!-- page header -->
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Tonie Torres</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
 	</header>
 
-	<div class="container">
-		<section id="main-bio">
-			<h2>Portfolio</h2>
+<!-- main section -->
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Portfolio</h1>
 
-			<div id="box1">
-				<a href="#">Penny<img src="assets/images/penny.jpg" id="penny"></a>
+			<!-- pic 1 -->
+			<div class="work">
+				<img src="assets/images/duchess.jpg" alt="filler picture hangman">
+				<h3>Hangman</h3>
 			</div>
 
-			<div id="box2">
-				<a href="#">Satan<img src="assets/images/satan.jpg" id="satan"></a>
+			<!-- pic 2 -->
+			<div class="work">
+				<img src="assets/images/penny.jpg" alt="filler picture RPG Game">
+				<h3>RPG</h3>
 			</div>
 
-			<div id="box3">
-				<a href="#">Serena<img src="assets/images/serena.jpg" id="serena"></a>
+			<!-- pic 3 -->
+			<div class="work">
+				<img src="assets/images/chiquita.jpg" alt=" filler picture Trivia Game">
+				<h3>Trivia Game</h3>
 			</div>
 
-			<div id="box4">
-				<a href="#">Shiner<img src="assets/images/shiner.jpg" id="shiner"></a>
+			<!-- pic 4 -->
+			<div class="work">
+				<img src="assets/images/obi.jpg" alt="filler picture Rutgers Info Widget">
+				<h3>Rutgers Info Widget</h3>
 			</div>
 
-			<div id="box5">
-				<a href="#">Duchess<img src="assets/images/duchess.jpg" id="duchess"></a>
+			<!-- pic 5 -->
+			<div class="work">
+				<img src="assets/images/shiner.jpg" alt="filler picture Rock Paper Scissors">
+				<h3>Rock Paper Scissors</h3>
 			</div>
-
-
 
 		</section>
 
-		<section id="contact-info">
-			<h2>Connect With Me</h2>
-			<ul>
-				<li> <a href="https://github.com/tonie-marie"> <img src="assets/images/github-logo.png" alt="github-logo"></a></li>
-
-				<li> <a href="www.linkedin.com/in/antonia-torres-11999793"> <img src="assets/images/linkedin-logo.png" alt="linkedin-logo"></a></li>
-			</ul>
+		<!-- side bar with connection portals -->
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
+				<a href="https://github.com/tonie-marie">
+					<img src="assets/images/github-logo.png" class="social" alt="Github">
+				</a>
+				<a href="https://www.linkedin.com/in/antonia-torres-11999793">
+					<img src="assets/images/linkedin-logo.png" class="social" alt="LinkedIn">
+				</a>
+				<img src="assets/images/stackoverflow-logo.png" class="social" alt="StackOverflow">
+			</div>
 		</section>
 	</div>
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Tonie Torres
+		</div>
+	</footer>
 
 </body>
 </html>

@@ -1,37 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tonie Torres</title>
-
+	<meta charset="utf-8">
+	<title>Contact | Tonie Torres</title>
 	<link rel="stylesheet" type="text/css" href="assets/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
-
 <body>
-	<header>
-		<h1>Tonie Torres</h1>
-		<nav>
-			<a href="index.html"><button>About</button></a>
-			<a href="portfolio.html" class="active"><button>Portfolio</button></a>
-			<a href="contact.html"><button>Contact</button></a>
-		</nav>
+
+	<!-- header -->
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Tonie Torres</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
 	</header>
 
-	<div class="container">
-		<section id="main-bio">
-			<h2>Contact Me</h2>
+	<!-- main section -->
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Contact</h1>
 
+			<!-- CONTACT SECTION FORM -->
+			<form id="contact-form">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="Jane Schmidt" required="required">
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+					</li>
+					<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
+				</ul>
+				<input type="submit">
+			</form>
 		</section>
 
-		<section id="contact-info">
-			<h2>Connect With Me</h2>
-			<ul>
-				<li> <a href="https://github.com/tonie-marie"> <img src="assets/images/github-logo.png" alt="github-logo"></a></li>
-
-				<li> <a href="www.linkedin.com/in/antonia-torres-11999793"> <img src="assets/images/linkedin-logo.png" alt="linkedin-logo"></a></li>
-			</ul>
+		<!-- side bar with connection portals -->
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
+				<a href="https://github.com/tonie-marie">
+					<img src="assets/images/github-logo.png" class="social" alt="Github">
+				</a>
+				<a href="https://www.linkedin.com/in/antonia-torres-11999793">
+					<img src="assets/images/linkedin-logo.png" class="social" alt="LinkedIn">
+				</a>
+				<img src="assets/images/stackoverflow-logo.png" class="social" alt="StackOverflow">
+			</div>
 		</section>
+
 	</div>
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Your Name
+		</div>
+	</footer>
 
 </body>
 </html>
